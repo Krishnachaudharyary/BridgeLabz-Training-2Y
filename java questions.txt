@@ -1,0 +1,42 @@
+//inheritence example;
+
+class animal{
+    void eat(){
+        System.out.print("eating...");
+    }
+}
+class dog extends animal{
+    void bark(){
+        System.out.print("woofoo...");
+    }
+}
+public class Main
+{
+	public static void main(String[] args) {
+		System.out.println("Hello World");
+		dog d=new dog();
+		d.bark();
+		d.eat();
+			
+	}
+}
+
+
+// class and objects
+
+class Student {
+    String name;
+    int marks;
+    void display() {
+        System.out.println("Name: " + name);
+        System.out.println("Marks: " + marks);
+    }
+    public static void main(String[] args) {
+        Student s = new Student();
+        s.name = "Krishna";
+        s.marks = 90;
+        s.display();
+    }
+}
+
+
